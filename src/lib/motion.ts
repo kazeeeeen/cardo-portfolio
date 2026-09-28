@@ -24,6 +24,8 @@ const hint = (el: HTMLElement) => (self: ScrollTrigger) => {
    screen, so 0.6 moves 20% of the page, 1.15 moves 7.5% the other way.
    `cover` oversizes the element so the moving edge never shows. */
 export function parallaxLayer(el: HTMLElement, speed: number, env: MotionEnv, cover = false) {
+  // Off on phones: a lagging drift "swims" against touch momentum scrolling.
+  if (env.isMobile) return
   const page = (el.closest('.page') as HTMLElement | null) ?? el.parentElement!
   const frac = (1 - speed) * 0.5 * env.depth
   // Oversize by the travel relative to the element's own height: a band
@@ -60,7 +62,7 @@ export function pinnedReveal(
   const tl = gsap.timeline({
     defaults: { ease: 'none' },
     scrollTrigger: env.isMobile
-      ? { trigger: section, start: 'top top', end: 'bottom top', scrub: 1 }
+      ? { trigger: section, start: 'top top', end: 'bottom top', scrub: true } // no lag against touch momentum
       : { trigger: section, start: 'top top', end: `+=${length}`, pin: true, scrub: 1, anticipatePin: 1 },
   })
   build(tl)
@@ -214,9 +216,33 @@ export function velocityMarquee(container: HTMLElement, env: MotionEnv, baseDir:
    Apple-style: blocks fade and rise into place as they scroll in, tied to
    the scroll position (scrubbed with a long lag, so it feels slow and smooth
    and reverses if you scroll back). Elements that already move on scroll
-   (data-parallax) only fade and settle in scale, so the two don't fight. */
-export function scrollReveal(els: HTMLElement[]) {
+   (data-parallax) only fade and settle in scale, so the two don't fight.
+   Phones play each reveal once instead: a scrubbed, lagging reveal reverses
+   and replays under touch momentum (worst when flicking back up), which reads
+   as glitching. */
+export function scrollReveal(els: HTMLElement[], env: MotionEnv) {
+  const drive = (el: Element, start: string, end: string, duration: number) =>
+    env.isMobile
+      ? { duration, scrollTrigger: { trigger: el, start: 'top 92%', once: true } }
+      : { scrollTrigger: { trigger: el, start, end, scrub: 1.6 } }
   els.forEach((el) => {
+    // Devices (the vlog / film phones) tilt up from lying back as they rise,
+    // over a longer stretch of scroll so the move is easy to see.
+    if (el.dataset.reveal === 'tilt') {
+      gsap.fromTo(
+        el,
+        { opacity: 0, y: 140, rotateX: 32, scale: 0.88, transformPerspective: 1200, transformOrigin: '50% 100%' },
+        {
+          opacity: 1,
+          y: 0,
+          rotateX: 0,
+          scale: 1,
+          ease: 'power2.out',
+          ...drive(el.parentElement ?? el, 'top 100%', 'top 45%', 1.4),
+        },
+      )
+      return
+    }
     const moving = el.hasAttribute('data-parallax')
     gsap.fromTo(
       el,
@@ -226,7 +252,7 @@ export function scrollReveal(els: HTMLElement[]) {
         scale: 1,
         ...(moving ? {} : { y: 0 }),
         ease: 'power2.out',
-        scrollTrigger: { trigger: el, start: 'top 100%', end: 'top 76%', scrub: 1.6 },
+        ...drive(el, 'top 100%', 'top 76%', 1.2),
       },
     )
   })

@@ -21,7 +21,7 @@ export function useScrollMotion() {
     const masks = all('[data-mask]')
     if (masks.length) maskReveal(masks)
     const marquees = all('[data-marquee]').map((el) => velocityMarquee(el, env, el.dataset.marquee === 'right' ? 1 : -1))
-    scrollReveal(all('[data-reveal]'))
+    scrollReveal(all('[data-reveal]'), env)
     all('[data-drift]').forEach((el) => rowDrift(el, el.dataset.drift === '-1' ? -1 : 1, env))
 
     ScrollTrigger.refresh()

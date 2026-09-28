@@ -25,10 +25,10 @@ export function Contents() {
         </Heading>
       </div>
 
-      <nav aria-label="Sections" style={box(746, 500)}>
-        <ul className="leading-[0.74] tracking-[-0.03em] stack:leading-[1.6]" style={{ fontSize: fs(37.9) }}>
+      <nav aria-label="Sections" style={box(746, 500)} data-reveal>
+        <ul className="leading-[0.74] tracking-[-0.03em]" style={{ fontSize: fs(37.9) }}>
           {content.nav.map((item) => (
-            <li key={item.href} data-reveal>
+            <li key={item.href}>
               <a
                 href={item.href}
                 className="transition-colors hover:text-accent"

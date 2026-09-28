@@ -447,6 +447,18 @@
   }
 }
 
+/* Touch screens: a still grain layer, sized to the screen, with no blending.
+   An animated full-screen blend layer forces a repaint every scroll frame,
+   which phones show as stutter. */
+@media (hover: none) {
+  .grain-overlay {
+    inset: 0;
+    animation: none;
+    mix-blend-mode: normal;
+    opacity: 0.05;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .grain-overlay {
     animation: none;

@@ -3,6 +3,11 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
+// Mobile browsers resize the viewport whenever the address bar slides in or
+// out (most of all when scrolling back up). Re-measuring every trigger on
+// each of those makes the page jump, so ignore height-only mobile resizes.
+ScrollTrigger.config({ ignoreMobileResize: true })
+
 // Lazy images load in batches as the user scrolls, so there is never a single
 // "all images loaded" moment. Each load schedules one debounced refresh instead,
 // which keeps pin positions correct without refreshing once per image.

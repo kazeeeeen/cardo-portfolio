@@ -11,13 +11,13 @@ import type { WorksSection } from '../types'
 // its own speed so the arrangement has depth.
 const PHONES = {
   a: [
-    { x: 87, y: 80, w: 451, parallax: 0.94 },
-    { x: 560, y: 190, w: 452, parallax: 1.06 },
+    { x: 87, y: 80, w: 451, parallax: 0.82 },
+    { x: 560, y: 190, w: 452, parallax: 1.18 },
     { x: 87, y: 316, w: 451, parallax: 1.0 },
   ],
   b: [
-    { x: 272, y: 228, w: 513, parallax: 1.05 },
-    { x: 803, y: 78, w: 513, parallax: 0.94 },
+    { x: 272, y: 228, w: 513, parallax: 1.16 },
+    { x: 803, y: 78, w: 513, parallax: 0.82 },
     { x: 818, y: 344, w: 513, parallax: 1.0 },
   ],
 }
