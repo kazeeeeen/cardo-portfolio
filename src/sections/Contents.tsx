@@ -26,12 +26,14 @@ export function Contents() {
       </div>
 
       <nav aria-label="Sections" style={box(746, 500)} data-reveal>
-        <ul className="leading-[0.74] tracking-[-0.03em]" style={{ fontSize: fs(37.9) }}>
+        <ul className="leading-[0.74] tracking-[-0.03em] stack:[--fs-scale:5.8]" style={{ fontSize: fs(37.9) }}>
           {content.nav.map((item) => (
             <li key={item.href}>
               <a
                 href={item.href}
-                className="transition-colors hover:text-accent"
+                // inline-block: the hit area is exactly one line tall, so at this tight
+                // leading a tap never lands on the neighbouring link.
+                className="inline-block transition-colors hover:text-accent"
                 onClick={(e) => {
                   e.preventDefault()
                   scrollTo(item.href)

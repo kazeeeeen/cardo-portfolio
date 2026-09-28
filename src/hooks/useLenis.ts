@@ -19,12 +19,14 @@ function subscribe(l: () => void) {
 
 /**
  * Call once, at the app root. Lenis is driven by GSAP's ticker so Lenis and
- * ScrollTrigger share a single frame loop. Disabled under reduced motion,
- * which falls back to native scrolling.
+ * ScrollTrigger share a single frame loop. Disabled under reduced motion and
+ * on touch screens, which both fall back to native scrolling: on phones Lenis
+ * fights the browser's own momentum scroll (the page jumps when you flick
+ * back up), and native touch scrolling is already smooth.
  */
 export function useLenisRoot(enabled: boolean) {
   useEffect(() => {
-    if (!enabled) return
+    if (!enabled || !matchMedia('(hover: hover) and (pointer: fine)').matches) return
 
     const lenis = new Lenis({ autoRaf: false, lerp: 0.1 })
     lenis.on('scroll', ScrollTrigger.update)

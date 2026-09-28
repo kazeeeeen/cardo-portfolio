@@ -306,7 +306,10 @@
     /* Full-bleed photo pages (hero, works, contact): one screen tall, text
        sits at the bottom over the photo. */
     .page-cover {
-      min-height: 100svh;
+      /* --cover-h is the screen height measured once at load (main.tsx), so
+         the cover pages keep a fixed height while the address bar slides in
+         and out; resizing them would shove every page below. */
+      min-height: var(--cover-h, 100svh);
       justify-content: flex-end;
     }
     /* The cover title is far wider than the other headings. */
