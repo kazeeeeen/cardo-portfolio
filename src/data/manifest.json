@@ -1,0 +1,1290 @@
+{
+ "hero": [
+  {
+   "src": "/assets/hero/gate-mirror-night.webp",
+   "slug": "gate-mirror-night",
+   "alt": "A standing mirror beside a white picket fence at night",
+   "w": 2000,
+   "h": 1332,
+   "ratio": 1.5015,
+   "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JZQDDNCHOFSatCF7gU2dAAP70H73YOf6cTG4DB5/qhKXm8HN9vDO9VzAAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/hero/gate-mirror-night-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/hero/gate-mirror-night-960.webp"
+    },
+    {
+     "w": 1440,
+     "src": "/assets/hero/gate-mirror-night-1440.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/hero/hero-portrait.webp",
+   "slug": "hero-portrait",
+   "alt": "Rica in a dark denim jacket with light streaks across the frame",
+   "w": 1948,
+   "h": 1095,
+   "ratio": 1.779,
+   "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAAsAPu1kqk4ppaQiMAgBMB2JZwAAUqTKQvbVEPdoAAD+fjrNQsKjnbjzEHkS8GktbNR0gAy3ssj863HJ7EAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/hero/hero-portrait-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/hero/hero-portrait-960.webp"
+    },
+    {
+     "w": 1440,
+     "src": "/assets/hero/hero-portrait-1440.webp"
+    }
+   ]
+  }
+ ],
+ "portraits": [
+  {
+   "src": "/assets/portraits/about-crawl.webp",
+   "slug": "about-crawl",
+   "alt": "Rica crouched on grass at night, flash lit",
+   "w": 2000,
+   "h": 1332,
+   "ratio": 1.5015,
+   "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABwAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JYwAAW+lmJcmIlAAA/vF9TyIFWn9+qUKyftUu1rYBDeetXPaQQjhOAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/portraits/about-crawl-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/portraits/about-crawl-960.webp"
+    },
+    {
+     "w": 1440,
+     "src": "/assets/portraits/about-crawl-1440.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/portraits/background-wall.webp",
+   "slug": "background-wall",
+   "alt": "Rica standing against a concrete wall in layered black",
+   "w": 1600,
+   "h": 1066,
+   "ratio": 1.5009,
+   "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABwAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JaQAATvtE1IBfD4AA/vKmsR8EqOjg2x/STJwim99JS50UpSp2C53OSfADdNMgAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/portraits/background-wall-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/portraits/background-wall-960.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/portraits/contact-portrait.webp",
+   "slug": "contact-portrait",
+   "alt": "Rica holding sunglasses in front of a tall hedge",
+   "w": 2000,
+   "h": 1332,
+   "ratio": 1.5015,
+   "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUAA0APu1kqU2ppaOiMAgBMB2JYwAAUqoy8mzh9b0VMAD+9DLHZ9W5oluOGEVnWw+apnvFHKIsWfHgoJC9AAAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/portraits/contact-portrait-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/portraits/contact-portrait-960.webp"
+    },
+    {
+     "w": 1440,
+     "src": "/assets/portraits/contact-portrait-1440.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/portraits/education-bushes.webp",
+   "slug": "education-bushes",
+   "alt": "Rica in front of garden bushes at night",
+   "w": 2000,
+   "h": 1332,
+   "ratio": 1.5015,
+   "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQBACdASoUAA0APu1iqk4ppaQiMAgBMB2JZAAAV9LPOYpS1msH3FScAAD+9DLHf6kyr/AglQC6Q3p7UnWrg2b3j+Tx293Xbq94n3go7aFNDxbWvQAAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/portraits/education-bushes-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/portraits/education-bushes-960.webp"
+    },
+    {
+     "w": 1440,
+     "src": "/assets/portraits/education-bushes-1440.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/portraits/skills-fullbody.webp",
+   "slug": "skills-fullbody",
+   "alt": "Full body portrait of Rica in a long black skirt",
+   "w": 1600,
+   "h": 2403,
+   "ratio": 0.6658,
+   "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoNABQAPu1iqU2ppaQiMAgBMB2JQAAMOSSm43pfQngUu4AA/u9jRrvq47SYOZkjtR1zx/bdfStrCPzDX7k5Zm2oyLFa3/JWKBRv0AAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/portraits/skills-fullbody-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/portraits/skills-fullbody-960.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/portraits/works-walking.webp",
+   "slug": "works-walking",
+   "alt": "Rica walking past a standing mirror at night",
+   "w": 2000,
+   "h": 1332,
+   "ratio": 1.5015,
+   "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZwDA3CHNBNRzFhs4zAAA/vQfvW1pJ1UioTvka5tQxS1AWxLK7iuBdAzxRwAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/portraits/works-walking-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/portraits/works-walking-960.webp"
+    },
+    {
+     "w": 1440,
+     "src": "/assets/portraits/works-walking-1440.webp"
+    }
+   ]
+  }
+ ],
+ "works/magazine": [
+  {
+   "src": "/assets/works/magazine/magazine-cover.webp",
+   "slug": "magazine-cover",
+   "alt": "Cover of the Ipahayag magazine flipbook",
+   "w": 418,
+   "h": 592,
+   "ratio": 0.7061,
+   "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAwCdASoOABQAPu1iqU2ppaOiMAgBMB2JQBdgA8KErzgfXeWRqcmAAPu9ztgXrSNqWuPVYzhIUgGM50Uceon3oM4cQhKznA3JzPbcJ/zIkJkgX4U3uonF0oEe0+O5XcrTP+ftuh1RiSx8AAA="
+  }
+ ],
+ "works/photography": [
+  {
+   "src": "/assets/works/photography/photo-basketball.webp",
+   "slug": "photo-basketball",
+   "alt": "Basketball players huddled on the court",
+   "w": 1434,
+   "h": 956,
+   "ratio": 1.5,
+   "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JQBOmUAAqo2B0/5qqgAD+6ZtTl5KjEHL9dTwm0+uG/JISK4lx9karcZx1xsa8TLNMLE8pHyF8u5InQOcFFSPtvJ/uuAm9gc2AAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/photography/photo-basketball-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/photography/photo-basketball-960.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/photography/photo-canteen.webp",
+   "slug": "photo-canteen",
+   "alt": "Candid of a student in a campus canteen",
+   "w": 1434,
+   "h": 956,
+   "ratio": 1.5,
+   "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JQBOgBENdPvyHF/eHE0lFscIAAPaiQdw+U4gyvxvQzbjP3d3q7frMKO+318U+xK95Ps4CVenOOrWyAXJRy9gdZdbNlRUFuIHS7JhHcTgAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/photography/photo-canteen-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/photography/photo-canteen-960.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/photography/photo-classroom-portrait.webp",
+   "slug": "photo-classroom-portrait",
+   "alt": "Student resting her chin on her hand during class",
+   "w": 1434,
+   "h": 956,
+   "ratio": 1.5,
+   "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JYgCdMoADgzNNMjsSsAotDgAA/psFSerb2ineiByqRwhSsed7LV29gEBLx5EUkdd/Lg04J0jZ5rOR8LDa86/Y45179JRZ7TCGSKLUXvgBTbAfgAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/photography/photo-classroom-portrait-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/photography/photo-classroom-portrait-960.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/photography/photo-elder.webp",
+   "slug": "photo-elder",
+   "alt": "An elderly woman speaking with students",
+   "w": 1434,
+   "h": 956,
+   "ratio": 1.5,
+   "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABwBACdASoUAA0APu1iqU2ppaQiMAgBMB2JZgCdMoR2WCUTwruumjXG5aRLWAD+7hzv9DsOMxufzVQ0G5Povgw2FGXVz9T0AzXmOeczHkEnClS+bmXrvpCpUJx1P7Vdx+Xp0r+i8+jNqQPm1AjcAAAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/photography/photo-elder-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/photography/photo-elder-960.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/photography/photo-interview.webp",
+   "slug": "photo-interview",
+   "alt": "Two people talking across a table",
+   "w": 1434,
+   "h": 956,
+   "ratio": 1.5,
+   "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JQBYdhDcI/MO4yPhAXyAA+XUFae70U9qwnE7Xsv54AMhU5jHOj1C8CsOrjJBv9E6M+W1GWihb6I1uax9wd9K523EEFMEYcK8xbnJAAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/photography/photo-interview-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/photography/photo-interview-960.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/photography/photo-pink-pen.webp",
+   "slug": "photo-pink-pen",
+   "alt": "Close up of a hand writing with a pink pen",
+   "w": 1434,
+   "h": 956,
+   "ratio": 1.5,
+   "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACwAwCdASoUAA0APu1mqk4ppaOiMAgBMB2JQBOgBFDd+wTDjzTltAD+VriBCBW6N4+dMghWt0H935ZPaaKwe62PRWzt5iMsxGThlAQZ5j8QG+hIewmOhMfpyLJCij/01QAAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/photography/photo-pink-pen-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/photography/photo-pink-pen-960.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/photography/photo-protest.webp",
+   "slug": "photo-protest",
+   "alt": "Protest placard reading no to historical revisionism",
+   "w": 1434,
+   "h": 956,
+   "ratio": 1.5,
+   "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABwBACdASoUAA0APu1iqU2ppaQiMAgBMB2JZgCdMoR3ACXCA+DvmA+E/A/mIAD9nzTAz2NA+InKgdtXQ4MkZHVAd+0xQyFQ9LtWQ5PVuUHBSYwjLHfwFZl+HsuHIkgA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/photography/photo-protest-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/photography/photo-protest-960.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/photography/photo-student-writing.webp",
+   "slug": "photo-student-writing",
+   "alt": "Student writing at a table during an event",
+   "w": 1434,
+   "h": 956,
+   "ratio": 1.5,
+   "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JQBYjYAAenrjjXa3uLJgA3Yt5YcDvn5cvzpJiJy/HcTk1oqt6TMVc/zx2IEssLNJXDJjxQxR9+peNPcrHi7yZm6ixnHDr+ePDIYDXIE6EviAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/photography/photo-student-writing-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/photography/photo-student-writing-960.webp"
+    }
+   ]
+  }
+ ],
+ "works/pubmats/cassayuran": [
+  {
+   "src": "/assets/works/pubmats/cassayuran/about-the-speaker.webp",
+   "slug": "about-the-speaker",
+   "alt": "About the speaker pubmat",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACQBACdASoUABQAPu1orVEppaQiqAqpMB2JQBdgAfAyiK36hnjKRb6LDnAwTAAA/slg2KgVJWOtB87vxeL0SEhisShaUYCHGCVi/BQqObaTcmZ+nULTnxVeHneJbiOKjz4Ge8vQNgeQcGPeKCkPQeRjzrU+aPihRgD8zP4Q61GQwAAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/about-the-speaker-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/are-you-ready.webp",
+   "slug": "are-you-ready",
+   "alt": "Are you ready for it pubmat",
+   "w": 1024,
+   "h": 1024,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQBACdASoUABQAPu1irVAppSQisBgIATAdiUAABc00WF5Qf9P9RlL9unqIAP1BycpodVGVD5XiJ3ypQsf+TfbKBg7Cg96PPvWDnzQjE1fZIwkhsADSJp4nU8AAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/are-you-ready-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/arni-webber-a.webp",
+   "slug": "arni-webber-a",
+   "alt": "Arni Webber pubmat left panel",
+   "w": 1024,
+   "h": 1024,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADwBACdASoUABQAPu1wr1KppiQiqAgBMB2JaACxHt65aA/6RJ3II+vuXNpQLvRs6YgA/u/XlF4nSNVRwZMy6fLSK+8R2oU4LLRMHQ1klJxYGg/BYQGimx4ZrPe16/QdWr4tJPczgpdNOslACDgBWFcU3gS7IrgpQftKcGWQSTL2ObDBmPcY/RagHiu6sAAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/arni-webber-a-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/arni-webber-b.webp",
+   "slug": "arni-webber-b",
+   "alt": "Arni Webber pubmat right panel",
+   "w": 1024,
+   "h": 1024,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABQBQCdASoUABQAPu1oqU+ppiOiKA1RMB2JaACxHuOCmA6O3NW9m54+VKzCQUmmtnAGjAAA+F28RUDlDeE5Bd4Y/K/GjEIYeL5TLBoKBi7MFeVyfNszPWiYSRKZgfBMnENemb85eKF6/dsTiUDikl1EYqErkonIH9VnWc0sUIu10Cns+tzwWCNTyBAFhAwRU8yAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/arni-webber-b-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/artists-day.webp",
+   "slug": "artists-day",
+   "alt": "International Artist’s Day pubmat",
+   "w": 1024,
+   "h": 1024,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACQBACdASoUABQAPu1arE2ppKSiMBgMATAdiWcAAC517zmqrYGzCgtOSnb/ZAAA/vN1J7oFNVc2cBMhbVw+C7fVlITvdUeeFqbvgX2SAHUsZ9SbBaN+05omJwQNIXHQuFAAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/artists-day-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/asyanong-kiosk.webp",
+   "slug": "asyanong-kiosk",
+   "alt": "BA Panitikan juniors celebrate Asian cultures pubmat",
+   "w": 1128,
+   "h": 946,
+   "ratio": 1.1924,
+   "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADwAwCdASoUABEAPu1oq08ppiOiMBgIATAdiUAWnQDv3kSJdbrQuIkAAP6wIN3juEVUiaeAYRXXNe+5sQQbA8czdQObv36HphOFrEnd9LQz/ZntzDG6ZZ/jHREcVRcS8nnLiEWR3tiAQDEwEoEDfuLDM2qLQ5iF6FIwAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/asyanong-kiosk-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/banilad-film-review.webp",
+   "slug": "banilad-film-review",
+   "alt": "Banilad ethics on screen film review pubmat",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAQBQCdASoUABQAPt1Wpk2opKOiN/qoARAbiUAVIqmAREhd3YLAGm7Crbxjas1Q3MMAAP7upNTmwZT/VA9WX9B18xWPOfmH/ec088DognL9uJSqaonBkk9kOMGh2d6KuGvSyapzFqvrvl6TQRtYfoNF6YcgGi7wAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/banilad-film-review-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/basketball-women.webp",
+   "slug": "basketball-women",
+   "alt": "Basketball women scoreboard pubmat",
+   "w": 1024,
+   "h": 1024,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADQBACdASoUABQAPu1ur1IppiQiqAgBMB2JYgCdM5H1OA5J10C0rBmQcgRadMSBAAD+uv0WgpXW8+HsCyXODoaGXaKSpST05uNiy9venxBwM1MWyp/DqZNHkkQqqfp213Va8AHh8ag5K9cdlggBjpmApvoq1Rp+hk1XCp3qjukL/kDYoxBBhUkyTaAAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/basketball-women-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/call-for-applicants.webp",
+   "slug": "call-for-applicants",
+   "alt": "Call for applicants pubmat with mascot",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADwBACdASoUABQAPu1ur1KppiQiqAgBMB2JQBhQAiO8b/mCJhjyWi534mOfXvXO9sAA/vIh417adffR5LgHbRhai/GBmnkMEUUlpTZO3cYSauwrS3pFWBmrlkkDdbZTMId9mnQ5j882e8fwVDyycoedGBy69ujA+vnHrUZF9AoAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/call-for-applicants-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/casspeaks.webp",
+   "slug": "casspeaks",
+   "alt": "Casspeaks pubmat",
+   "w": 1024,
+   "h": 1024,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAACwBACdASoUABQAPu1wsFKppiSiqAgBMB2JQBdgtlgRAB2bBLaG1I0e5+4VOexwANwfVsvpjhN48v3VHCQoxp7MaQH3EFsC3fzaTFaP1cDaa0MQkrW2PXPzz2PZtgpR6MN1c2vWK8mEHWfSmWQvUZz1Cs5rHSiiuOwg+YCgYXRzlNO0gvjCFgzySa5gKlr1Dm+DrkUAAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/casspeaks-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/crown-of-purpose.webp",
+   "slug": "crown-of-purpose",
+   "alt": "A Crown of Purpose feature pubmat",
+   "w": 1128,
+   "h": 946,
+   "ratio": 1.1924,
+   "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADwAwCdASoUABEAPu1mrE+ppaQiMBgIATAdiWcAxNgR8wnGrqe7kK7AAN4VZjuy1dHgpGbxgao9vG0P0Z38HZY8YVYoA32tfpeRHJMPER7Tq6Vu/ZXcLHr1sfK3m3aWOfycKS+Oi2KJnHmcmq4FU+IpUJ+Lngu0AAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/crown-of-purpose-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/literary-events.webp",
+   "slug": "literary-events",
+   "alt": "Literary events pubmat",
+   "w": 1013,
+   "h": 1013,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABQBACdASoUABQAPu1oqk8ppiOiKA1RMB2JZACdEf/gDkjkXZWx3QChrZmAAOkngoqXH7Rz88Frg2l80hJj6qp6+xeEausK/BW8ZLEB3lAR7glP6JIJqCI87hSsXOcVpSJTBQMaoMKTW8HbRC3DXaRC21wdf/DCYLJkAAAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/literary-events-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/new-journalists.webp",
+   "slug": "new-journalists",
+   "alt": "Meet the new Cassayuran journalists pubmat",
+   "w": 1024,
+   "h": 1024,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACQBACdASoUABQAPu1krE4ppaSiKA1RMB2JQBhQAb3OIarDGSFutn9xlDuBqYgA/kvvF+ltSgvIILHo5QaBWAhwe5Cr0jdSyaYPTmfy88sX8YccH2ESDkAbAcbB7Q8mlAirOo7no/QuuMxjUS74KopFFUq2ysQSFNdcH407Fn/nB+vNdMpF1QAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/new-journalists-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/overall-ranking.webp",
+   "slug": "overall-ranking",
+   "alt": "Overall ranking pubmat",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAwBQCdASoUABQAPu1urlIppiQiqAgBMB2JYgCsIKv+OAPlM2ZRVVxufXaJy82Z6ScQYAD+79ZvyNxI5ZAOuveCNOpM81vyqbO6JXPEJGdSL767K/LiXp9dpS2kIPKk3IejuJMUwNxUvFjcyZzTtGaZkJXakTki8ZbpypbeEYq6kuUB+4YJSKS7zACXTa8ai/XijAAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/overall-ranking-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/safe-sex-valentines.webp",
+   "slug": "safe-sex-valentines",
+   "alt": "A safe sex guide on Valentine’s Day pubmat",
+   "w": 1024,
+   "h": 1024,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAAAQBACdASoUABQAPu1qrFEppaQiqAqpMB2JaAB42gB9mA904fUWYoCrkAD8vdxYIngmLSgcuQcZj9oypDOUpu9S8zzJQ2LfP4RQdAzqd9yj5f+NvPwejsjuTDDrwEtu+wIL8LmmJnODVicD9pL/g4MZAJGnOzswGrbdBPc5YOFrKXbIKZaxeaS4AAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/safe-sex-valentines-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/staff-roles.webp",
+   "slug": "staff-roles",
+   "alt": "Staff roles recruitment pubmat",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABQBACdASoUABQAPu1osFAppaUiqAqpMB2JQBlAAezNz/2ruJ+uu3hjjxygAP7EaGps3d9EMyn+ohJFzG20XbizPiPuVVOfkBSk0yK0TLNkhhHs4jmNxHmTNhl5XeMFTDyjk1vQjNEHqDxPhFp0QKJM0emAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/staff-roles-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/teachers-day.webp",
+   "slug": "teachers-day",
+   "alt": "Happy Teachers’ Day pubmat",
+   "w": 526,
+   "h": 526,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAACQBACdASoUABQAPu1srlIppaQiqAgBMB2JZQBVQYPMvqYADSFgCJL/k1x1FuAA/u/KluzvY2MtEmFzBg94rnqjXebpaRUsOyzW4gwj97ydBRgx1ifOvfYr9DfFHzxQnOWCjaBxmWkzN/X7PvaZDYeGQs8AYe8vVkXF0l+6YEC5I/WAAAA="
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/thank-you-jhon-dave.webp",
+   "slug": "thank-you-jhon-dave",
+   "alt": "Thank you Jhon Dave pubmat",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwBACdASoUABQAPu1srFEppaQjqAqpMB2JQBOmargo7yj+zlaFS9Hs5oAA/svluZ1d5SmrAPxEU06xWx57/PbK9IjSMge8MI6pTNPot1AB/RW9qntfQE1U+IQF/I2v/gA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/thank-you-jhon-dave-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/truth-on-ballot.webp",
+   "slug": "truth-on-ballot",
+   "alt": "Truth on Ballot 2025 elections pubmat",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADwBACdASoUABQAPu1qrFEppaQiqAqpMB2JYgC7IQSBfvrJNROk3/Z6s3QaqX+VqoAA/u1ISHJX3V8ttpw7+U32pfGMqRGW8ll7PAHqM2HlcBxd0lNE+Bg7QTMOzEaGxgN6n16ij+9E7lIIwcAsHxXyS45rZSnUWgijAHUw8aeHfgMHoUJeZ1pdEAAAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/truth-on-ballot-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/universal-health-coverage.webp",
+   "slug": "universal-health-coverage",
+   "alt": "Universal Health Coverage Day pubmat",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAACwBACdASoUABQAPu1cq02ppKQiMBgMATAdiWIANQAAcraV7NfLQp5OVQrPPlVQAP7zdSe6Av+Xl3wOATWkFvpunFF/4yOYUiq8AxO925o9VDEFE+4CE+9269W8VWkP5WeJmUgBMWxXYnvVtiPvDBcIGWSgt1QA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/universal-health-coverage-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/we-stand-with-palestine.webp",
+   "slug": "we-stand-with-palestine",
+   "alt": "We stand with Palestine pubmat",
+   "w": 1024,
+   "h": 1024,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABwBQCdASoUABQAPu1wsFKppiSiqAgBMB2JYgDCs2QBqt481nbBxHtxSSmdUIc+Uc2owF2oAP7vymoeLLfyqAEC6V4QuRVBsGec+ZaxG0PrnDHKnZFEkAqr31YHxoOTOAO+3xfa85rpEj0Fe4QTdSEJGi/JPp5ZR1p0ingTsrhh1GUhh/2PVfKHrJn2swED1sAAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/we-stand-with-palestine-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/womens-month.webp",
+   "slug": "womens-month",
+   "alt": "Happy Women’s Month pubmat",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBQCdASoUABQAPu1sqlEppiOiqAqpMB2JYwCBBARaL7IZDO0W92v4VHFYCAOKgFCwAAD+83UnCvv0c9z+vef/NQ0BpcIziz9gkdazq+bCVPlvwIsydEfI3g1iw/K243UBF4duP3g7gEBsOukFVCbP9hZCEfmx+pYDKoPMAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/womens-month-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/cassayuran/world-kindness-day.webp",
+   "slug": "world-kindness-day",
+   "alt": "World Kindness Day pubmat",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwBACdASoUABQAPu1eqU4ppKOiMBgMATAdiWIAygAQ7N+ZHwwFlWxV7udpJEU60gAA/vN0/zPYL6ymSx3LxBS8Jd56jRXPceUk4PbzPqvUBlJ/xHITAFPW1Jd1RvytiSSNU5RHLjQ2KKXqiYixQAAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/cassayuran/world-kindness-day-480.webp"
+    }
+   ]
+  }
+ ],
+ "works/pubmats/kapilas-bayan": [
+  {
+   "src": "/assets/works/pubmats/kapilas-bayan/araw-ng-mga-bayani.webp",
+   "slug": "araw-ng-mga-bayani",
+   "alt": "Araw ng mga Bayani pubmat",
+   "w": 940,
+   "h": 788,
+   "ratio": 1.1929,
+   "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoUABEAPu1qrlCppaQiqAqpMB2JYwDBzBDaMvW0WTJNWaoAAP7tSSKJvrghxgECFZVXUVtcWvdYDiAeaJXfcGDb0a3rr3fsihomBWLfLilQffbA+w/JooPBxI7Y+g7HKD0/5A4ZhWNUO+HUAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/kapilas-bayan/araw-ng-mga-bayani-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/kapilas-bayan/buwan-ng-wika.webp",
+   "slug": "buwan-ng-wika",
+   "alt": "Buwan ng Wikang Pambansa pubmat",
+   "w": 1050,
+   "h": 1050,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAACwBACdASoUABQAPu1srFEppiQiqAqpMB2JZACdM47A6yfuGSmOm6DT1xEzAUsAAOp7Oc68S4bQOFJp9h5RtJ/r3Fmx4UE5w3GIzcQq2y9V96S5nkLruWtacNN0aMEYFdOSrYN8DSevWWurRszlhTv2QTTFNSJwPuymgCLtFofwCxO4AAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/kapilas-bayan/buwan-ng-wika-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/kapilas-bayan/edgar-senoron.webp",
+   "slug": "edgar-senoron",
+   "alt": "Feature pubmat for Edgar Senoron",
+   "w": 1024,
+   "h": 1024,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAACwBACdASoUABQAPu1qq1EppaOiqAqpMB2JYwDI1A9fAbG2Pq6Mn2GgOqEc73AAAP7qlaMRQS3zS5i+OsJok/tleurMx7XJ05aM1zdN8IdntiC7yUrKBfiWO1e67aZgGfJbzO2d8rp83SKLP10wOv/JhXkrPBwgAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/kapilas-bayan/edgar-senoron-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/kapilas-bayan/elected-officers.webp",
+   "slug": "elected-officers",
+   "alt": "Kapilas-Bayan elected officers pubmat",
+   "w": 1024,
+   "h": 1024,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAACQBACdASoUABQAPu1cqE2ppKOiN/VYATAdiWMAwcwQPsQDqgGSxYmyzJOEoAAA/Hk8DquxtO705PjPbs0uL43uH8W+OYDyP9gSFYU5TETCoNQS59PL3AGR8UBB3R9pjLlg7g3C5hZ3V6lGWxQo3hB1nHTjgq2Y2V2cr11GgAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/kapilas-bayan/elected-officers-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/kapilas-bayan/enylry-semblante.webp",
+   "slug": "enylry-semblante",
+   "alt": "Feature pubmat for Enylry Semblante",
+   "w": 1024,
+   "h": 1024,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADwBACdASoUABQAPu1oqk+ppiOiKA1RMB2JYwDKABFAX/6HH4R2gOX4QRMMTX7WwAAA/t9JIugaKdBsZRroDhdd2pMP06ngf+tz9rwnAIY3APFGzsXEfNt1FIP307YHXtgOF2hW45u8gvFWw/ExiClxOpOunNxRwAAAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/kapilas-bayan/enylry-semblante-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/kapilas-bayan/executive-committee.webp",
+   "slug": "executive-committee",
+   "alt": "Executive committee pubmat",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACwBACdASoUABQAPu1sqlEppaOiqAqpMB2JYgCw7A8/a7RvqIY2vJ8kH9I3hs08AP7UtmP1VmW959+1BHJKJGobN/UGAyC7ZYayQyguXMsPHnYL0QczveN3smOqq8/EbOvk816UT82R2448nWuOXSs2alTbTvgbEksY0AAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/kapilas-bayan/executive-committee-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/kapilas-bayan/literary.webp",
+   "slug": "literary",
+   "alt": "Literary events cover in an antique parchment style",
+   "w": 1035,
+   "h": 981,
+   "ratio": 1.055,
+   "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBQCdASoUABMAPu1mqk8ppaOiKA1RMB2JQBOmargy/2uQtT9zB3aVJ/8KImqLGv5gAP659RsmQFb4LJYk0UPYYK5kzaZirRvsnjGhBZSEMPDr/sFLdaWXL2lkcUpv3Rl/ou0rRomJASDgAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/kapilas-bayan/literary-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/kapilas-bayan/msu-iitians.webp",
+   "slug": "msu-iitians",
+   "alt": "MSU-IITians recruitment pubmat",
+   "w": 1013,
+   "h": 1013,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACQBACdASoUABQAPu1sqlEppaOiqAqpMB2JZwDDcBDeeR+JUC+bcQ2As10mRAAA/t9XtFqgcxOFecGIIm16NSfKs8Tz9s1h0VdsDzpqS+EzO3BE60dgca0GWS/knSsOAhAAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/kapilas-bayan/msu-iitians-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/kapilas-bayan/newly-2025.webp",
+   "slug": "newly-2025",
+   "alt": "Newly elected officers 2025 pubmat",
+   "w": 1024,
+   "h": 1024,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAAAwBACdASoUABQAPu1ur1IppiQiqAgBMB2JQBkVP/wDUKnmW2wK7Zoke0wA/uqm0nAHCg39MYBFCDe6w9KOPnNuhgj6DhUg8aUDJK+M6rqVsR+wybgrvOtglRCo4OA6zDloVdnLS1M0wn2BpBx6HwkkdDX12VRvBdzkaO6oDvCVg583aXa7pKqYAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/kapilas-bayan/newly-2025-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/kapilas-bayan/ramadhan-mubarak.webp",
+   "slug": "ramadhan-mubarak",
+   "alt": "Ramadhan Mubarak pubmat",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQBACdASoUABQAPu1ur1IppiQiqAgBMB2JQBdgAi+wxEXRAfyXcPxrNxYAAP7n69yGNsXqnQRaakqVwVA7Z5an1yQZ1Mjg/obOxoDdRxI4Wx81uZ7dSXDToE83wYek9zH9vwAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/kapilas-bayan/ramadhan-mubarak-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/kapilas-bayan/rice-awareness-month.webp",
+   "slug": "rice-awareness-month",
+   "alt": "National Rice Awareness Month pubmat",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQBACdASoUABQAPu1kq06ppaQiKA1RMB2JYgDLLBEVz3aKdXkWvX/d1zCQAP7nNryB8IFmkyvLTUV9CAaM5HFqqQn3zQyVQgEnW9O1r1Qt9hgGEER45Ihf5iySH7Y36LN7kAAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/kapilas-bayan/rice-awareness-month-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/kapilas-bayan/sport-events.webp",
+   "slug": "sport-events",
+   "alt": "Sport events cover in an antique parchment style",
+   "w": 1035,
+   "h": 981,
+   "ratio": 1.055,
+   "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACQBACdASoUABMAPu1oqk+ppaOiKA1RMB2JQBOmWOgvNRtSdCIZMWUsKeVhyCgA3jr4ckDt03czKn/laWHHyZCSHmhekJvSXW6ymR4bhakjwJQuROWTwV3vPwFpB0dFIgAAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/kapilas-bayan/sport-events-480.webp"
+    }
+   ]
+  }
+ ],
+ "works/pubmats/orions": [
+  {
+   "src": "/assets/works/pubmats/orions/dec-03-birthday.webp",
+   "slug": "dec-03-birthday",
+   "alt": "December 3 birthday pubmat",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAACwBQCdASoUABQAPu1qrVCppaQiqAqpMB2JagCdMoSCwBYBh8eYTvCEcShf0Kg4OG+P4SP53gAA/s3F/WVROUoOWNhhJqrtGpFpPx2MvdmAPYVOuBrVt8OC6BjFes2MzuAJYaYfTkgm9Hde4Ud+tUnierahOWfzVvLxOOwBs2m8cWt/BvsEthxdmAQAXGXGxMOT6ClxR64eqzRwDwgwJ5pC9nBm0CqegAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/orions/dec-03-birthday-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/orions/diego-february.webp",
+   "slug": "diego-february",
+   "alt": "February 2026 calendar birthday pubmat",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAABQBQCdASoUABQAPu1ep06ppKMiMBgMATAdiWoAnTKAAaoGoZhL+a+5lc9x+TOGqqSekwAA/ofFbZKS7Ag1d0vXdZjm1zZ3azO6+QEDuXnh7+lt1mVI7Sh2tAn6uPaTRAKjpsgPTYQru6OW+8uajz0zz1KocQUMVqaKf3b5N8rnLsqAwVF3Iw69r6KbWSFncEsCTmUbreC9zCHBOgD6VeM+q7AAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/orions/diego-february-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/orions/february-celebrants-a.webp",
+   "slug": "february-celebrants-a",
+   "alt": "February celebrants pubmat left panel",
+   "w": 590,
+   "h": 590,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAACwBACdASoUABQAPu1qq1EppaOiqAqpMB2JQBWGbIA1PsqRu4+NtLvRXS35FK+AAP6tPT2pKJPx3kY4g4hbQudB0YpbHA74EgZyM/Owi9yx0FMXZ9gJfr7m7bHlQ9EuunNx2I4WEPuKUNbb4VS/v17STLnzwXUkh4DBX5eiz8cATpslUAAAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/orions/february-celebrants-a-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/orions/february-celebrants-b.webp",
+   "slug": "february-celebrants-b",
+   "alt": "February celebrants pubmat right panel",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACQBACdASoUABQAPu1qrlCppaQiqAqpMB2JZgCBxkFgOjm2DC3Wt6RAUzHXc9AAzfO3BNcKzo6PxrRfW8pRPaEstRMDqZCyewgPTu/rRbjsetkB7tPDVMUHFku9nVoQwnrWrq561UvtPPtpswQJexrA4hzlJ0PpyE+YKZEhV8s5knAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/orions/february-celebrants-b-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/orions/january-birthday-a.webp",
+   "slug": "january-birthday-a",
+   "alt": "January celebrants pubmat left panel",
+   "w": 1008,
+   "h": 1008,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABQBQCdASoUABQAPu1urlIppiQiqAgBMB2JZgCxH5NCmBJ0m1OFUWoWctSvVPx+jHlFFgAA/t7sNPrQlxBWgJ6ZAB414JWvk5zEgTk3qsyNT51oPSxLa60kPyHSHGM7e+GSaPW5L1b0mUTWo7Q6ntjNfUGsq7/hKi+bfI5xtdhNGUnDuwsoIMsXAmT7qNs6GvHPwlCjuAAAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/orions/january-birthday-a-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/orions/january-birthday-b.webp",
+   "slug": "january-birthday-b",
+   "alt": "January celebrants pubmat right panel",
+   "w": 1008,
+   "h": 1008,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABQBQCdASoUABQAPu1kq06ppaQiKA1RMB2JaACdMxL/+BT9B7esykzDhu66MeGFq1ZtQAAA/VOvLULPGd2S7Ibi7wJvioWnfztMiKDyXimXHufqGl/Vp1gqWXPeBbNoffL7YHK84nprJH/HqRygwT2jvxE3kS2eMYxgHuRNL6MGfSqNKsEKpmIirCE7yYKpj8i7MtjAAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/orions/january-birthday-b-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/orions/march-birthday.webp",
+   "slug": "march-birthday",
+   "alt": "March birthday pubmat",
+   "w": 1008,
+   "h": 1008,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABQBQCdASoUABQAPu1urlIppiQiqAgBMB2JZgCxHw5IgBTZOyGPNZM23DGF3CmPP4HMsAAA/noeliq991+a9O0vUPkV67U+4qeMmrMzPfPr7biDio7Yx42kTIrAj7H2Z0cpFqHjyOZcbZMoj1yo4ty6Pm0omIwnlOUSmAACWAAAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/orions/march-birthday-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/orions/milton-birthday.webp",
+   "slug": "milton-birthday",
+   "alt": "Birthday pubmat for Milton",
+   "w": 1008,
+   "h": 1008,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAAAwBQCdASoUABQAPu1ur1KppiQiqAgBMB2JbACdMoR/+BP+zjXhRn1C/SXOtrrLz6oMgAD+7/gOo6g7CoYQp0zqtn3MH08eeexurv6N3vFXTvAx0P+Rc3Lo2IUyqUe94LijsGA7O4qPIo/f1EahQj2Q8L3IR/GdjHS6wgSSMCSldy1pJBASp6ELWnLFg0O230YEY9pYsljdPxjthWLVMkwQ48Da37PRDz2nqYTlrJHBvi4WvAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/orions/milton-birthday-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/orions/orions-feature.webp",
+   "slug": "orions-feature",
+   "alt": "Red feature pubmat",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADwBACdASoUABQAPu1qqVAppiOiqA1RMB2JZACdM0xBqZE1VYFAWbDdQ4uU8WocHpAA/rISSefXqGPYNm1iK6t7/DLCPFzFKoZFm0Al0UAAwDtKAWsk6IrtU1VcirMirCh0iq6Iwi/YM02tR5PW6xvLgBUTAVGAuXctCfvFzm5udgeViqx449R48iqAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/orions/orions-feature-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/orions/orions-lm-days.webp",
+   "slug": "orions-lm-days",
+   "alt": "MSU-IIT Orions CBM Lam Days pubmat",
+   "w": 840,
+   "h": 945,
+   "ratio": 0.8889,
+   "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAACwBACdASoSABQAPu1kq06ppaQiKA1RMB2JYwDImAp/2s1ybMIUczC3SKPauRgAAP4jAZGPWb09MxZ6xSj/CpDsS58ZwcVNbV74akyLVNOWWbKfXjgmJegHeZOI6AQa/6vj4DnJ8f/gvcgeoHCHcjBz7D/zFPqO8DOgXuGAAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/orions/orions-lm-days-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/orions/orions-striped-a.webp",
+   "slug": "orions-striped-a",
+   "alt": "Striped red birthday layout",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACQBACdASoUABQAPu1grVAppSQisBgIATAdiUAXYAHok3V4bgLla6EPYDlSZrAA/udTx9XrdkDFobnPywErgujxlUMHR6VznsNMzYNablqrkj7jHuHP35RIE+WEJACIDqe2I3oP17TlFVU16vWn8ltcgAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/orions/orions-striped-a-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/pubmats/orions/orions-striped-b.webp",
+   "slug": "orions-striped-b",
+   "alt": "Striped red birthday layout variant",
+   "w": 972,
+   "h": 972,
+   "ratio": 1,
+   "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADwBACdASoUABQAPu1ur1IppiQnqAgBMB2JQBXDge1f1GzQhkC6coxUJvYaJJfubkAA/t8c5ZYM/bYpssbd9+21/ozUu6RNbK4k7a0CzldBXkhZzY8fPNAZNQkXGv5PienwOkc0wKaThsqSWX2yShUP73/+U3Z7DcsZ0t3MvvHawdj8czYw0gyJDQAAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/pubmats/orions/orions-striped-b-480.webp"
+    }
+   ]
+  }
+ ],
+ "works/posters": [
+  {
+   "src": "/assets/works/posters/chungking-express.webp",
+   "slug": "chungking-express",
+   "alt": "Chungking Express tribute poster",
+   "w": 802,
+   "h": 1079,
+   "ratio": 0.7433,
+   "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADQAwCdASoPABQAPu1iqU2ppaQiMAgBMB2JZAC06CDl/FGbyzBINqAA/fhorf7KiR5drT2UiM6Y/CGhB56IrUUtOEyYKRnfw5fex3CD4yBhxo/cxJzEhGO6SFsCOJEB1MxUm3ytDf70MAAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/posters/chungking-express-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/posters/cosmic.webp",
+   "slug": "cosmic",
+   "alt": "Cosmic poster with a floral portrait",
+   "w": 758,
+   "h": 1079,
+   "ratio": 0.7025,
+   "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwBACdASoOABQAPu1iqU2ppaOiMAgBMB2JZACw7CPXSzkLBZ4aypiayAAA9l9JoATRvZEjzxH7+f2ufmQwKSTukmLSXTbHyN2AZBcl1RVByGu7CBLi4ZCsFW0OhCNSMghVWfHKGGwnjF6Q/HWSD0+vRzrjAcYAAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/posters/cosmic-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/posters/green-portrait.webp",
+   "slug": "green-portrait",
+   "alt": "Green toned portrait poster",
+   "w": 804,
+   "h": 1079,
+   "ratio": 0.7451,
+   "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoPABQAPu1iqU2ppaQiMAgBMB2JaAC7H8ACOaZQJuiPqAD+2O5siSYqKFyxsH5PmzcOfRNruFF9cXM/4Sw5roLKg2yym9cv3EcHJCmI6b+F8FTRTgA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/posters/green-portrait-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/posters/happy-together.webp",
+   "slug": "happy-together",
+   "alt": "Happy Together tribute poster",
+   "w": 1120,
+   "h": 728,
+   "ratio": 1.5385,
+   "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQBACdASoUAA0APu1iqk2ppaQiMAgBMB2JZACsLwAB0a9606mG/1f+3VWAAP7i25dvX4Og4T301KvlK0WIJe+hgSLIdZWuEXEbCrHrS2UWUGEyxvc0Sqpm38Xu+q2PBAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/posters/happy-together-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/posters/hulagway-sang-nayon.webp",
+   "slug": "hulagway-sang-nayon",
+   "alt": "Hulagway sang Nayon collage poster",
+   "w": 764,
+   "h": 1079,
+   "ratio": 0.7081,
+   "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABwBACdASoOABQAPu1iqk2ppaQiMAgBMB2JZACdMoGv/gMSLhiN0j4lhlnTdADN4FIB4OT2uDIrOKDoUQmrSBI7H05ayBxRaRzK0a7E9X7QdUcyApDk8hYm0CJEzJkUHBzhMbnY7IkiAAAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/posters/hulagway-sang-nayon-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/posters/in-the-mood.webp",
+   "slug": "in-the-mood",
+   "alt": "In the Mood poster",
+   "w": 804,
+   "h": 1079,
+   "ratio": 0.7451,
+   "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBACdASoPABQAPu1iqk2ppaQiMAgBMB2JbACdMoADTp1wCz3+zeBk7qAA/kpw88of61/pPsVWiYuyYp/TlOwHcud8MRVAmJZi1eGlvQOWkZrcaxYUiFNhdWAZ5GPFkBwRavZwl/d85aDvwJFH9ID4RMp/XT9ngJQAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/posters/in-the-mood-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/posters/japanese-portrait.webp",
+   "slug": "japanese-portrait",
+   "alt": "Halftone portrait poster with Japanese lettering",
+   "w": 762,
+   "h": 1079,
+   "ratio": 0.7062,
+   "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACwAwCdASoOABQAPu1iqU2ppaOiMAgBMB2JaQAAS+zCitCbvWouwAD+ZUCkyaZfvX7NCGm3/t17dQm+bKtHNyU1+ynfx1/oDM1B2KE7TGCdyEP0LKXQrsxU3Yl6Q0JozamtPede7jPuKg+yRpLMhLgAAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/posters/japanese-portrait-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/posters/look-mom-its-keeho.webp",
+   "slug": "look-mom-its-keeho",
+   "alt": "Look, Mom It’s Keeho film style poster",
+   "w": 755,
+   "h": 1074,
+   "ratio": 0.703,
+   "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACQAwCdASoOABQAPu1kqU2ppaOiMAgBMB2JaQAAWvJhiT2HHspQAP7tDMAtcOjavdVhekVt8+UEG5VnIp6pUZW0ss4SeLrcepe3dHWQE1iziy50AAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/posters/look-mom-its-keeho-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/posters/nokia-7250.webp",
+   "slug": "nokia-7250",
+   "alt": "Nokia 7250 retro advert poster",
+   "w": 758,
+   "h": 1079,
+   "ratio": 0.7025,
+   "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBACdASoOABQAPu1iqU2ppaQiMAgBMB2JYwAu/8BwMyPYC1dVfIlzMYAA/uAAtHAuQE8O1YCBRuxGUmNDnnkKZYZ9KG0ScqPvg5aYPwA9GD2UMA052FdMJbmMXiPNd4TevjCVp+h2oXzGt1Xf3ozGXKMZcgAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/posters/nokia-7250-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/posters/pandamay-na-pandemya.webp",
+   "slug": "pandamay-na-pandemya",
+   "alt": "Pandamay na Pandemya poster",
+   "w": 760,
+   "h": 1079,
+   "ratio": 0.7044,
+   "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADwAwCdASoOABQAPu1iqU2ppaOiMAgBMB2JQBYd5YAwWru+PwVYWzVYAP6JKfUZQwnDlgQnQ426uF0KnEpKRB6L6mo6pMIC0S0G+U9+uT9JL2EqOtxQpT8ANc8wlwABpJ9zSIWVNVD3gAAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/posters/pandamay-na-pandemya-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/posters/sukit-sukit.webp",
+   "slug": "sukit-sukit",
+   "alt": "Sukit-Sukit typewriter poster",
+   "w": 759,
+   "h": 1079,
+   "ratio": 0.7034,
+   "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoOABQAPu1iqk2ppaQiMAgBMB2JZwDE2CHOMfzajUUNKsAA/tRQ/v6ih7JTRRskvZLi8xugGupy0E3GorwqdAY3kCaY5MFhhEvUCPAH/HfswAAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/posters/sukit-sukit-480.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/posters/wake-up.webp",
+   "slug": "wake-up",
+   "alt": "Wake up typographic quote poster",
+   "w": 758,
+   "h": 1079,
+   "ratio": 0.7025,
+   "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBACdASoOABQAPu1iqk2ppaQiMAgBMB2JbACdMoADT1mKaz/oYnIX4AD+WJQABAn1Emrt7a531LgY6+yVNXdhDovYfYdPqnK4segflGKp2CNrpV1kujsleVC8df20+/qhlkcmUycC5mIAAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/posters/wake-up-480.webp"
+    }
+   ]
+  }
+ ],
+ "works/vlogs": [
+  {
+   "src": "/assets/works/vlogs/ano-vlog.webp",
+   "slug": "ano-vlog",
+   "alt": "Ano? Christmas vlog thumbnail",
+   "w": 310,
+   "h": 174,
+   "ratio": 1.7816,
+   "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBACdASoUAAsAPu1iqk2ppaQiMAgBMB2JZACdMoADRjNbJQ1dSB8qlsAA/n4EBbSrA6Zo0sICU8tmzQ496QHC229wjaDKfqONSQaF4pz+AxBQddnLf//TIv6bjvMLgZ1Q9WZxr8YDZqpvYFNFQ3KTW55u48AA"
+  },
+  {
+   "src": "/assets/works/vlogs/beata-beach.webp",
+   "slug": "beata-beach",
+   "alt": "Beata Beach and Sanctuary vlog thumbnail",
+   "w": 310,
+   "h": 174,
+   "ratio": 1.7816,
+   "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAAsAPu1kqk4ppaQiMAgBMB2JYwC7AB52B44X7mZkAAD45HJTRxSFyuGGDNGncp6yiMVhwUwm7WMSzcO2VTxjCXgitWWG84SBn25wlpoCIkGnZYq4AA=="
+  },
+  {
+   "src": "/assets/works/vlogs/christmas-party.webp",
+   "slug": "christmas-party",
+   "alt": "Christmas party vlog thumbnail",
+   "w": 310,
+   "h": 174,
+   "ratio": 1.7816,
+   "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JYwAAVWUzLFLGH7UbAAD+a1vG2hvsnM8H6Wksr6Xfkd66CV/FzRuYPT97FZVEMlA8rD3VbIvwgJRTUoueAgjFEoLZO/qP2aPgAAAA"
+  },
+  {
+   "src": "/assets/works/vlogs/uni-life-graduating.webp",
+   "slug": "uni-life-graduating",
+   "alt": "Uni life finally graduating vlog thumbnail",
+   "w": 356,
+   "h": 200,
+   "ratio": 1.78,
+   "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JbACdMoACpx++3IyqQUAAAPvkRf1XA/SfmT/kx5JWJGl2uaYko5qjWU9BT/QEw0pQMjQS6x+7wdasSrmqc90015MCuMkOFp2trzVOyGRKXF9BfyrAAA=="
+  },
+  {
+   "src": "/assets/works/vlogs/uni-life-hell-week.webp",
+   "slug": "uni-life-hell-week",
+   "alt": "Uni life first week hell week vlog thumbnail",
+   "w": 356,
+   "h": 200,
+   "ratio": 1.78,
+   "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZQAARNt3VtJ4wxZZcAAA/qrm2P+3GH+WRjdeaXabNSa1p/jrSVvuCnBcjEzMsEVIToMxUkArI8jUgZAPu5J34SwgSjbrovI6WiKv2SFOHbbgEHkib2gA"
+  },
+  {
+   "src": "/assets/works/vlogs/uni-life-welcoming.webp",
+   "slug": "uni-life-welcoming",
+   "alt": "Uni life welcoming week vlog thumbnail",
+   "w": 359,
+   "h": 202,
+   "ratio": 1.7772,
+   "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZgCdFQAARlURCILbZnQAAPwPnOnHZ0Z4Knc+TCKq99CwLmgB90ESg/LtpJ6234URBGcrIZx90/LcL+QcZRgcG2JGk1Ey/6YX63phLGSXARbGMHFP07J/9/TNdAwA"
+  }
+ ]
+}

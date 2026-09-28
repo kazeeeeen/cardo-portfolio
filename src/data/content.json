@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "name": "Ricardo Jose Gagno",
+    "nickname": "rica",
+    "title": "portfolio",
+    "byline": "by rica",
+    "role": "Graphic Designer · Layout Artist · Photographer",
+    "location": "Iligan City, Philippines"
+  },
+  "nav": [
+    {
+      "label": "about me",
+      "href": "#about"
+    },
+    {
+      "label": "background",
+      "href": "#background"
+    },
+    {
+      "label": "education",
+      "href": "#education"
+    },
+    {
+      "label": "skills",
+      "href": "#skills"
+    },
+    {
+      "label": "my works",
+      "href": "#works"
+    },
+    {
+      "label": "contacts",
+      "href": "#contact"
+    }
+  ],
+  "about": {
+    "heading": "about me",
+    "body": "hi ! im RICARDO JOSE GAGNO but you can call me rica.   i’m twenty-three years old and i just graduated at mindanao state university-iligan institute technology. i’m a literature student but i really love editing A LOT especially in graphic design field. i love experimenting with any kind of a design style to create something unique and eyecatching! also, i joined a lot of different organization in college that relates in graphic designing. i do photograpy, too ! hehe  ^____^"
+  },
+  "background": {
+    "heading": "background",
+    "orgs": [
+      {
+        "name": "kapilas-bayan.",
+        "years": "2024-2025",
+        "roles": [
+          "assistant head layout artist",
+          "social media manager",
+          "photographer",
+          "technical and design associate"
+        ]
+      },
+      {
+        "name": "msu-iit drag superstar",
+        "years": "2024-2026",
+        "roles": [
+          "layout artist",
+          "drag associate"
+        ]
+      },
+      {
+        "name": "cassayuran (msu-iit official).",
+        "years": "2024-2026",
+        "roles": [
+          "layout artist. (2024-2025)",
+          "head layout artist. (2025-2026)"
+        ]
+      },
+      {
+        "name": "msu-iit orions.",
+        "years": "2025-2026",
+        "roles": [
+          "layout artist."
+        ]
+      },
+      {
+        "name": "sid luna vlog",
+        "years": "2025",
+        "roles": [
+          "video editor"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "heading": "education",
+    "school": "mindanao state university-iligan institute technology.",
+    "years": "2022-2026",
+    "degree": "batsilyer ng sining sa panitikan",
+    "degreeEnglish": "bachelor of arts in literature",
+    "studies": "studies"
+  },
+  "skills": {
+    "heading": "technical skills",
+    "groups": [
+      {
+        "label": "DESIGN & MULTIMEDIA",
+        "items": [
+          "graphic design",
+          "photo editing",
+          "photography",
+          "layout design",
+          "video editing",
+          "social media content creation",
+          "branding & visual content creation"
+        ]
+      },
+      {
+        "label": "SOFTWARE & DIGITAL TOOLS",
+        "items": [
+          "canva",
+          "adobe lightroom",
+          "capcut",
+          "microsoft office",
+          "google workspace"
+        ]
+      },
+      {
+        "label": "ADMINISTRATIVE/DATA SKILLS",
+        "items": [
+          "data entry/encoding",
+          "proofreading",
+          "transcription",
+          "digital file organization"
+        ]
+      }
+    ]
+  },
+  "works": {
+    "heading": "my works",
+    "sections": [
+      {
+        "id": "magazine",
+        "label": "MAGAZINE",
+        "kind": "feature",
+        "assetGroup": "works/magazine",
+        "note": "click to open the flipbook",
+        "link": "",
+        "credit": "KINAADMAN"
+      },
+      {
+        "id": "photography",
+        "label": "PHOTOGRAPHY",
+        "kind": "grid",
+        "assetGroup": "works/photography",
+        "slugs": [
+          "photo-classroom-portrait",
+          "photo-student-writing",
+          "photo-basketball",
+          "photo-interview"
+        ]
+      },
+      {
+        "id": "photography-2",
+        "label": "PHOTOGRAPHY",
+        "kind": "grid",
+        "assetGroup": "works/photography",
+        "slugs": [
+          "photo-canteen",
+          "photo-elder",
+          "photo-protest",
+          "photo-pink-pen"
+        ]
+      },
+      {
+        "id": "pubmats-cassayuran",
+        "label": "PUBMATS",
+        "marquee": "PUBMATS PUBMATS PUBMATS",
+        "credit": "CASSAYURAN",
+        "kind": "marquee-grid",
+        "assetGroup": "works/pubmats/cassayuran",
+        "rows": [
+          [
+            "banilad-film-review",
+            "crown-of-purpose",
+            "asyanong-kiosk",
+            "we-stand-with-palestine",
+            "universal-health-coverage"
+          ],
+          [
+            "world-kindness-day",
+            "womens-month",
+            "new-journalists",
+            "call-for-applicants",
+            "staff-roles",
+            "artists-day"
+          ]
+        ]
+      },
+      {
+        "id": "pubmats-cassayuran-2",
+        "label": "PUBMATS",
+        "marquee": "PUBMATS PUBMATS PUBMATS",
+        "credit": "CASSAYURAN",
+        "kind": "marquee-grid",
+        "assetGroup": "works/pubmats/cassayuran",
+        "rows": [
+          [
+            "arni-webber-a",
+            "arni-webber-b",
+            "teachers-day",
+            "truth-on-ballot",
+            "about-the-speaker",
+            "safe-sex-valentines"
+          ],
+          [
+            "are-you-ready",
+            "thank-you-jhon-dave",
+            "overall-ranking",
+            "basketball-women",
+            "casspeaks",
+            "literary-events"
+          ]
+        ]
+      },
+      {
+        "id": "pubmats-kapilas-bayan",
+        "label": "PUBMATS",
+        "marquee": "PUBMATS PUBMATS PUBMATS",
+        "credit": "KAPILAS-BAYAN",
+        "kind": "marquee-grid",
+        "assetGroup": "works/pubmats/kapilas-bayan",
+        "rows": [
+          [
+            "literary",
+            "sport-events",
+            "executive-committee",
+            "rice-awareness-month",
+            "enylry-semblante",
+            "edgar-senoron"
+          ],
+          [
+            "elected-officers",
+            "newly-2025",
+            "buwan-ng-wika",
+            "araw-ng-mga-bayani",
+            "msu-iitians",
+            "ramadhan-mubarak"
+          ]
+        ]
+      },
+      {
+        "id": "pubmats-orions",
+        "label": "PUBMATS",
+        "marquee": "PUBMATS PUBMATS PUBMATS",
+        "credit": "MSUIIT-ORIONS",
+        "kind": "marquee-grid",
+        "assetGroup": "works/pubmats/orions",
+        "rows": [
+          [
+            "orions-striped-a",
+            "orions-striped-b",
+            "orions-feature",
+            "orions-lm-days",
+            "january-birthday-a",
+            "january-birthday-b"
+          ],
+          [
+            "milton-birthday",
+            "february-celebrants-a",
+            "february-celebrants-b",
+            "diego-february",
+            "march-birthday",
+            "dec-03-birthday"
+          ]
+        ]
+      },
+      {
+        "id": "posters",
+        "label": "POSTERS",
+        "kind": "collage",
+        "assetGroup": "works/posters"
+      },
+      {
+        "id": "vlogs",
+        "label": "YOUTUBE VLOGS",
+        "credit": "SID LUNA VLOGS",
+        "kind": "phones",
+        "assetGroup": "works/vlogs",
+        "slugs": [
+          "beata-beach",
+          "christmas-party",
+          "ano-vlog"
+        ]
+      },
+      {
+        "id": "vlogs-2",
+        "label": "YOUTUBE VLOGS",
+        "credit": "I DO MY OWN VLOGS TOO!",
+        "kind": "phones",
+        "assetGroup": "works/vlogs",
+        "slugs": [
+          "uni-life-graduating",
+          "uni-life-welcoming",
+          "uni-life-hell-week"
+        ]
+      },
+      {
+        "id": "documentary-films",
+        "label": "DOCUMENTARY/FILMS",
+        "kind": "films",
+        "screens": 3
+      }
+    ]
+  },
+  "contact": {
+    "heading": "let's work",
+    "label": "contact:",
+    "items": [
+      {
+        "label": "gmail",
+        "value": "ricardogagnx@gmail.com",
+        "href": "mailto:ricardogagnx@gmail.com"
+      },
+      {
+        "label": "instagram",
+        "value": "@eighthavenue.444______",
+        "href": "https://instagram.com/eighthavenue.444______"
+      },
+      {
+        "label": "number",
+        "value": "09357972549",
+        "href": "tel:+639357972549"
+      }
+    ]
+  }
+}

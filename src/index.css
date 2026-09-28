@@ -1,0 +1,458 @@
+@import 'tailwindcss';
+@import 'lenis/dist/lenis.css';
+
+/* Layouts (keep in sync with src/lib/breakpoints.ts):
+   spread — the original's 16:9 pages; stack — one column for phones and
+   upright tablets. Use as stack:… / spread:… in markup. */
+/* Block form: a comma list in the short form breaks Tailwind's parser. */
+@custom-variant stack {
+  @media (max-width: 767.98px) {
+    @slot;
+  }
+  @media (orientation: portrait) and (max-width: 1199.98px) {
+    @slot;
+  }
+}
+@custom-variant spread {
+  @media (min-width: 768px) and (orientation: landscape) {
+    @slot;
+  }
+  @media (min-width: 1200px) {
+    @slot;
+  }
+}
+
+/* Helvetica, via TeX Gyre Heros: a free (GUST Font License, see
+   /fonts/GUST-FONT-LICENSE.txt) copy of Helvetica and Helvetica Condensed.
+   Subset to Latin and renamed, as the licence requests of modified copies.
+   Two real widths: font-stretch 100% picks Helvetica, 75% Helvetica Condensed.
+   With a licensed Helvetica, swap these files and keep the family name. */
+@font-face {
+  font-family: 'Rica Heros';
+  src: url('/fonts/rica-heros-regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rica Heros';
+  src: url('/fonts/rica-heros-italic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rica Heros';
+  src: url('/fonts/rica-heros-bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rica Heros';
+  src: url('/fonts/rica-heros-bolditalic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rica Heros';
+  src: url('/fonts/rica-heroscn-regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 75%;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rica Heros';
+  src: url('/fonts/rica-heroscn-italic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: 75%;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rica Heros';
+  src: url('/fonts/rica-heroscn-bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 75%;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rica Heros';
+  src: url('/fonts/rica-heroscn-bolditalic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: 75%;
+  font-display: swap;
+}
+
+/* ------------------------------------------------------------------
+   Design tokens (Tailwind v4: the theme lives here, not tailwind.config.js)
+   ------------------------------------------------------------------ */
+@theme static {
+  /* Wipe Tailwind's default palette: grayscale + one accent, nothing else. */
+  --color-*: initial;
+
+  --color-ink: #0a0a0a;
+  --color-paper: #ffffff; /* the original pages are pure white */
+  --color-white: #ffffff;
+
+  --color-gray-100: #ededed;
+  --color-gray-200: #dadada;
+  --color-gray-300: #bdbdbd;
+  --color-gray-400: #9e9e9e;
+  --color-gray-500: #7a7a7a;
+  --color-gray-600: #5c5c5c;
+  --color-gray-700: #404040;
+  --color-gray-800: #262626;
+  --color-gray-900: #171717;
+
+  --color-accent: #e63329;
+  --color-accent-dim: #b42219; /* pressed / active */
+
+  /* One family throughout, like the original: a condensed neo-grotesk with
+     roman and italic mixed inside words. Swap the family name here to change
+     every heading and paragraph at once. */
+  --font-display: 'Rica Heros', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-body: 'Rica Heros', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  /* Fluid type. display-xl reaches ~18vw on desktop, floors at 4.5rem on phones. */
+  --text-display-xl: clamp(4.5rem, 18vw, 22rem);
+  --text-display-xl--line-height: 0.82;
+  --text-display-xl--letter-spacing: -0.045em;
+  --text-display-l: clamp(3.5rem, 12vw, 15rem);
+  --text-display-l--line-height: 0.85;
+  --text-display-l--letter-spacing: -0.04em;
+  --text-display-m: clamp(2.75rem, 8vw, 10rem);
+  --text-display-m--line-height: 0.88;
+  --text-display-m--letter-spacing: -0.035em;
+  --text-display-s: clamp(2rem, 4.5vw, 5.5rem);
+  --text-display-s--line-height: 0.92;
+  --text-display-s--letter-spacing: -0.03em;
+  --text-body: clamp(0.9375rem, 0.35vw + 0.85rem, 1.25rem);
+  --text-body--line-height: 1.12;
+  --text-small: clamp(0.8125rem, 0.2vw + 0.75rem, 1rem);
+  --text-small--line-height: 1.15;
+  --text-label: 0.75rem;
+  --text-label--line-height: 1;
+  --text-label--letter-spacing: 0.08em;
+}
+
+/* ------------------------------------------------------------------
+   Base
+   ------------------------------------------------------------------ */
+@layer base {
+  :root {
+    color-scheme: only light;
+    --grain-opacity: 0.07;
+    --z-grain: 90;
+    --z-cursor: 100;
+  }
+
+  html {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family: var(--font-body);
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+    /* The original is set in Helvetica Condensed throughout; only the
+       cover title uses the regular width. */
+    font-stretch: 75%;
+    letter-spacing: -0.01em;
+    min-height: 100vh;
+    overflow-x: clip;
+  }
+
+  ::selection {
+    background: var(--color-accent);
+    color: var(--color-white);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Utilities
+   ------------------------------------------------------------------ */
+
+/* Condensed display face. Pair with <em> inside a word for the original's
+   roman/italic mix: ab<em>ou</em>t me */
+@utility font-display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-stretch: 75%;
+  & em {
+    font-style: italic;
+  }
+}
+
+/* The original's small type (labels, chips, captions) is narrower than its
+   headings and nav. */
+@utility condensed {
+  font-stretch: 75%;
+}
+
+/* The original fills its headings with a soft gray gradient, not flat black. */
+@utility text-fill-ink {
+  background: linear-gradient(100deg, var(--color-gray-700) 0%, var(--color-ink) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+@utility text-fill-paper {
+  background: linear-gradient(100deg, var(--color-white) 0%, var(--color-gray-300) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Film grain as a background, for grain on a single block (the global
+   overlay below covers the page). */
+@utility grain {
+  background-image: var(--grain-tile);
+  background-size: 180px 180px;
+}
+
+/* Ruled notebook paper, CSS gradients only. */
+@utility paper-ruled {
+  background-color: var(--color-paper);
+  background-image:
+    linear-gradient(to right, transparent 3.5rem, rgb(0 0 0 / 0.07) 3.5rem, rgb(0 0 0 / 0.07) calc(3.5rem + 1px), transparent calc(3.5rem + 1px)),
+    repeating-linear-gradient(to bottom, transparent 0 31px, rgb(0 0 0 / 0.055) 31px 32px);
+}
+
+/* ------------------------------------------------------------------
+   Components
+   ------------------------------------------------------------------ */
+@layer components {
+  /* One SVG page. The spread layout keeps the original 1366×768 proportion
+     so positions measured off the SVG line up. */
+  @media (min-width: 768px) and (orientation: landscape), (min-width: 1200px) {
+    .page {
+      aspect-ratio: 1366 / 768;
+    }
+  }
+
+  /* Stack layout: the page becomes a single column. Every box() (tagged
+     --bx) drops out of absolute positioning back into flow, in DOM order. */
+  @media (max-width: 767.98px), (orientation: portrait) and (max-width: 1199.98px) {
+    :root {
+      --fs-scale: 1.75;
+      --gutter: 1.25rem;
+    }
+    .page {
+      display: flex;
+      flex-direction: column;
+      gap: 1.75rem;
+      padding: 3rem var(--gutter) 3.5rem;
+    }
+    .page [style*='--bx'] {
+      position: relative !important;
+      left: auto !important;
+      top: auto !important;
+      width: auto !important;
+      height: auto !important;
+    }
+    /* Image bands bleed to the screen edges at a fixed ratio. */
+    .page [style*='--m-aspect'] {
+      aspect-ratio: var(--m-aspect);
+      margin-inline: calc(var(--gutter) * -1);
+    }
+    .page > [style*='--m-aspect']:first-child {
+      margin-top: -3rem;
+    }
+    /* Posters: a two-column grid, keeping the poster proportion. */
+    .poster-row {
+      display: grid !important;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem !important;
+    }
+    .poster-row + .poster-row {
+      margin-top: -1rem;
+    }
+    .poster-tile {
+      width: auto !important;
+      height: auto !important;
+      aspect-ratio: 0.7;
+    }
+
+    /* Pubmats rows become swipeable strips, edge to edge. */
+    .pub-row {
+      margin-inline: calc(var(--gutter) * -1);
+      padding-inline: var(--gutter);
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-padding-inline: var(--gutter);
+      scrollbar-width: none;
+    }
+    .pub-row + .pub-row {
+      margin-top: -1.25rem;
+    }
+
+    /* Full-bleed photo pages (hero, works, contact): one screen tall, text
+       sits at the bottom over the photo. */
+    .page-cover {
+      min-height: 100svh;
+      justify-content: flex-end;
+    }
+    /* The cover title is far wider than the other headings. */
+    .page-cover h1 {
+      --fs-scale: 1.15;
+    }
+  }
+
+  /* Upright tablets use the stack layout with more room: type scales less
+     (the viewport is already wide) and the gutter grows. */
+  @media (orientation: portrait) and (min-width: 768px) and (max-width: 1199.98px) {
+    :root {
+      --fs-scale: 1.15;
+      --gutter: 3.5rem;
+    }
+    .page {
+      gap: 2.5rem;
+      padding-block: 4.5rem 5rem;
+    }
+    .page > [style*='--m-aspect']:first-child {
+      margin-top: -4.5rem;
+    }
+    /* A full-width tall band (the 3:4 skills portrait) would fill the screen. */
+    .page [style*='--m-aspect'] {
+      max-height: 70svh;
+    }
+    .page-cover h1 {
+      --fs-scale: 1;
+    }
+  }
+
+  :root {
+    /* Rasterised once by the browser, then just moved around. Animating the
+       SVG filter itself would re-render noise every frame. */
+    --grain-tile: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  /* Fixed full-viewport grain, above content, below the cursor. */
+  .grain-overlay {
+    position: fixed;
+    inset: -50%;
+    z-index: var(--z-grain);
+    pointer-events: none;
+    background-image: var(--grain-tile);
+    background-size: 180px 180px;
+    opacity: var(--grain-opacity);
+    mix-blend-mode: multiply;
+    animation: grain-shift 0.9s steps(6) infinite;
+  }
+
+  @keyframes grain-shift {
+    0% { transform: translate(0, 0); }
+    20% { transform: translate(-7%, 4%); }
+    40% { transform: translate(5%, -6%); }
+    60% { transform: translate(-3%, 8%); }
+    80% { transform: translate(8%, 2%); }
+    100% { transform: translate(0, 0); }
+  }
+
+  /* SplitText line masks: the headings run at 0.8 line-height, so pad the
+     mask (and pull it back with negative margin) or descenders and italic
+     overhangs get clipped. */
+  .split-line-mask {
+    padding: 0.1em 0.12em 0.24em;
+    margin: -0.1em -0.12em -0.24em;
+  }
+
+  /* The about-page highlight: a gray block behind the name, wiped in via
+     --wipe (GSAP). Static at 100% when motion is off. */
+  .highlight {
+    --wipe: 100%;
+    color: inherit;
+    background: linear-gradient(var(--color-gray-400), var(--color-gray-400)) no-repeat 0 0 / var(--wipe) 100%;
+    padding: 0.02em 0.1em 0.04em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  /* Contact links: a thin accent underline draws in left-to-right on hover
+     and keyboard focus (the label turns red via group-hover in markup). */
+  .contact-link {
+    background: linear-gradient(var(--color-accent), var(--color-accent)) no-repeat 0 100% / 0% 1px;
+    transition: background-size 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+    padding-bottom: 0.08em;
+  }
+  .contact-link:hover,
+  .contact-link:focus-visible {
+    background-size: 100% 1px;
+  }
+
+  /* Pubmats viewer: a full-screen modal <dialog>. */
+  .lightbox {
+    width: 100vw;
+    height: 100svh;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: rgb(10 10 10 / 0.94);
+    color: var(--color-white);
+  }
+  .lightbox::backdrop {
+    background: transparent;
+  }
+
+  /* Image frame: reserves space from manifest w/h, shows the blurred LQIP,
+     then cross-fades the real image in. */
+  .img-frame {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: var(--color-gray-200);
+  }
+  .img-frame::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--lqip) center / cover no-repeat;
+    filter: blur(14px);
+    scale: 1.1;
+    transition: opacity 0.5s ease 0.1s;
+  }
+  .img-frame > img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  .img-frame[data-loaded] > img {
+    opacity: 1;
+  }
+  .img-frame[data-loaded]::before {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .grain-overlay {
+    animation: none;
+  }
+  .img-frame::before,
+  .img-frame > img {
+    transition: none;
+  }
+}
