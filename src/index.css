@@ -397,6 +397,47 @@
     background-size: 100% 1px;
   }
 
+  /* Linked phones (vlogs, films): lift a little on hover/focus and show a red
+     play button over the screen. */
+  .phone {
+    transition: box-shadow 0.4s ease;
+  }
+  .phone-play {
+    position: absolute;
+    left: 49.75%;
+    top: 50%;
+    width: 13%;
+    aspect-ratio: 1;
+    translate: -50% -50%;
+    scale: 0.8;
+    opacity: 0;
+    border-radius: 999px;
+    background: var(--color-accent);
+    transition: opacity 0.3s ease, scale 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .phone-play > span {
+    position: absolute;
+    inset: 32% 28% 32% 38%;
+    background: var(--color-white);
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+  }
+  .phone:has(a:hover),
+  .phone:has(a:focus-visible) {
+    box-shadow: 0 18px 40px -18px rgb(0 0 0 / 0.45);
+  }
+  .phone:has(a:hover) .phone-play,
+  .phone:has(a:focus-visible) .phone-play {
+    opacity: 1;
+    scale: 1;
+  }
+  @media (hover: none) {
+    /* No hover on touch: keep the play button visible so it reads as a link. */
+    .phone-play {
+      opacity: 0.92;
+      scale: 1;
+    }
+  }
+
   /* Pubmats viewer: a full-screen modal <dialog>. */
   .lightbox {
     width: 100vw;

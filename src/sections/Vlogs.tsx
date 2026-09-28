@@ -25,17 +25,25 @@ const PHONES = {
 /** A: phones top-left, heading bottom-right. B: heading bottom-left, phones right. */
 export function Vlogs({ section, variant }: { section: WorksSection; variant: 'a' | 'b' }) {
   const a = variant === 'a'
-  const [first, second] = section.label.split(' ')
+  // First word on its own line: YOUTUBE / VLOG EDITS, YOUTUBE / VLOGS.
+  const [first, ...rest] = section.label.split(' ')
+  const second = rest.join(' ')
   const thumbs = (section.slugs ?? []).map((slug) => asset(section.assetGroup!, slug))
 
   return (
     <Page id={section.id} label={`youtube vlogs ${variant}`}>
       {thumbs.map((thumb, i) => (
-        <Phone key={thumb.slug} asset={thumb} {...PHONES[variant][i]} />
+        <Phone
+          key={thumb.slug}
+          asset={thumb}
+          href={section.links?.[i]}
+          label={`Watch on YouTube: ${thumb.alt.replace(/ — .*$/, '')}`}
+          {...PHONES[variant][i]}
+        />
       ))}
 
-      <div data-reveal className={a ? 'text-right stack:order-first' : 'stack:order-first'} style={a ? box(900, 490, 416) : box(80, 518, 375)}>
-        <div className={a ? 'text-left leading-none' : 'text-right leading-none'} style={a ? { marginLeft: '9.9%' } : undefined}>
+      <div data-reveal className={a ? 'text-right stack:order-first' : 'stack:order-first'} style={a ? box(700, 490, 586) : box(80, 518, 375)}>
+        <div className={a ? 'text-right leading-none' : 'text-right leading-none'}>
           <Credit>{section.credit ?? ''}</Credit>
         </div>
         <Heading size={104} style={{ marginTop: '-0.08em' }}>

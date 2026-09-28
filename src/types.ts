@@ -24,6 +24,7 @@ export type AssetGroup =
   | 'works/pubmats/orions'
   | 'works/posters'
   | 'works/vlogs'
+  | 'works/films'
 
 export type AssetManifest = Record<AssetGroup, ImageAsset[]>
 
@@ -59,8 +60,10 @@ export interface WorksSection {
   slugs?: string[]
   /** Pubmats pages: the two rows of the strip, in SVG order. */
   rows?: [string[], string[]]
-  /** Films: how many empty phone screens to show until the videos are linked. */
-  screens?: number
+  /** Vlogs/films: where each phone links to, in the order of `slugs`. */
+  links?: string[]
+  /** Films: a short title shown on each screen, in the order of `slugs`. */
+  titles?: string[]
 }
 
 export interface ContactItem {

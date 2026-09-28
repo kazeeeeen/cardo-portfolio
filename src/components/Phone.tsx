@@ -10,12 +10,18 @@ interface PhoneProps {
   y: number
   w: number
   parallax?: number
+  /** Opens the video in a new tab. */
+  href?: string
+  /** Small title chip in the top-left corner of the screen. */
+  caption?: string
+  /** Accessible name for the link, e.g. "Watch: Beata Beach & Sanctuary". */
+  label?: string
 }
 
 // A landscape phone drawn in CSS, proportioned off the original: black bezel
 // with a thin silver rim, white screen, the pill cutout on the left, and the
 // thumbnail letterboxed right of centre.
-export function Phone({ asset, x, y, w, parallax }: PhoneProps) {
+export function Phone({ asset, x, y, w, parallax, href, label, caption }: PhoneProps) {
   const h = w * 0.481
   return (
     // Outer box: position + parallax drift. Inner body: the phone itself, which
@@ -23,7 +29,7 @@ export function Phone({ asset, x, y, w, parallax }: PhoneProps) {
     // never fight over the same transform.
     <div style={{ ...box(x, y, w, h), aspectRatio: `${w} / ${h}` }} data-parallax={parallax}>
       <div
-        className="absolute inset-0 bg-white"
+        className="phone absolute inset-0 bg-white"
         style={{
           borderRadius: fs(w * 0.1),
           border: `${fs(w * 0.011)} solid var(--color-ink)`,
@@ -38,7 +44,18 @@ export function Phone({ asset, x, y, w, parallax }: PhoneProps) {
         />
         <div className="absolute" style={{ left: '15.4%', top: '50%', translate: '0 -50%', width: '68.7%' }}>
           {asset ? (
-            <Image asset={asset} sizes="23vw" />
+            <div className="relative">
+              <Image asset={asset} sizes="23vw" />
+              {caption && (
+                <span
+                  aria-hidden
+                  className="condensed absolute top-[6%] left-[4%] bg-ink px-[0.6em] py-[0.25em] leading-none text-white uppercase"
+                  style={{ fontSize: `max(0.5625rem, ${fs(w * 0.026)})` }}
+                >
+                  {caption}
+                </span>
+              )}
+            </div>
           ) : (
             <div aria-hidden className="flex aspect-video items-center justify-center bg-gray-900">
               {/* A quiet play mark until the video is linked. */}
@@ -49,6 +66,20 @@ export function Phone({ asset, x, y, w, parallax }: PhoneProps) {
             </div>
           )}
         </div>
+        {href && (
+          // Covers the whole phone, so anywhere on it opens the video.
+          <a
+            href={href}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={label}
+            className="absolute inset-0 rounded-[inherit] focus-visible:outline-offset-4"
+          >
+            <span aria-hidden className="phone-play">
+              <span />
+            </span>
+          </a>
+        )}
       </div>
     </div>
   )

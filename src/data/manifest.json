@@ -1233,58 +1233,167 @@
  ],
  "works/vlogs": [
   {
-   "src": "/assets/works/vlogs/ano-vlog.webp",
-   "slug": "ano-vlog",
-   "alt": "Ano? Christmas vlog thumbnail",
-   "w": 310,
-   "h": 174,
-   "ratio": 1.7816,
-   "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBACdASoUAAsAPu1iqk2ppaQiMAgBMB2JZACdMoADRjNbJQ1dSB8qlsAA/n4EBbSrA6Zo0sICU8tmzQ496QHC229wjaDKfqONSQaF4pz+AxBQddnLf//TIv6bjvMLgZ1Q9WZxr8YDZqpvYFNFQ3KTW55u48AA"
-  },
-  {
    "src": "/assets/works/vlogs/beata-beach.webp",
    "slug": "beata-beach",
-   "alt": "Beata Beach and Sanctuary vlog thumbnail",
-   "w": 310,
-   "h": 174,
-   "ratio": 1.7816,
-   "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAAsAPu1kqk4ppaQiMAgBMB2JYwC7AB52B44X7mZkAAD45HJTRxSFyuGGDNGncp6yiMVhwUwm7WMSzcO2VTxjCXgitWWG84SBn25wlpoCIkGnZYq4AA=="
+   "alt": "Beata Beach & Sanctuary, Sta. Magdalena, Sorsogon — Sid Luna vlog thumbnail",
+   "w": 1280,
+   "h": 720,
+   "ratio": 1.7778,
+   "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBdioAAG28UnssXvgAD+jh2UH/utiI6TbuXGV6jNhapYonFhurTEFGSJWL9+jamrUDniDYQHtht3bUWcVjrwYQhPtUOhL8mzan3f4S86BRiqA84fMoW//p/HFDVo9BeAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/vlogs/beata-beach-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/vlogs/beata-beach-960.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/vlogs/ano-vlog.webp",
+   "slug": "ano-vlog",
+   "alt": "Christmas party with the fam 2023, Vlogmas day 17 — Sid Luna vlog thumbnail",
+   "w": 480,
+   "h": 270,
+   "ratio": 1.7778,
+   "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JaACdMoADOpQOHHuFok4AAPRZRbgMdXmsHbBUg/eVm0CgDyGi+nW7ayYAHI/go+Nqho5wDv/XnWpsKRc107WmRDd/9Mk/dkdWdqy18hzB3HeCL1ch3x71X3PhhaJFEkRj56uz0JE2RUQppjlFXpQVQAA="
   },
   {
    "src": "/assets/works/vlogs/christmas-party.webp",
    "slug": "christmas-party",
-   "alt": "Christmas party vlog thumbnail",
-   "w": 310,
-   "h": 174,
-   "ratio": 1.7816,
-   "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JYwAAVWUzLFLGH7UbAAD+a1vG2hvsnM8H6Wksr6Xfkd66CV/FzRuYPT97FZVEMlA8rD3VbIvwgJRTUoueAgjFEoLZO/qP2aPgAAAA"
+   "alt": "St. Jude ABC Christmas party 2023, Vlogmas day 16 — Sid Luna vlog thumbnail",
+   "w": 1280,
+   "h": 720,
+   "ratio": 1.7778,
+   "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQAAJUl9jC35hK1OQAAD+4nTyppy6U148rKsFceUscQb1Z+UBmTaylglVUvB1aUUHlqstZCpH1BiJE+8Yp333qU12ExTmEetHdpoqVN/cES8HUyeZbFmZWNGRphMn6NgAAAAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/vlogs/christmas-party-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/vlogs/christmas-party-960.webp"
+    }
+   ]
   },
   {
    "src": "/assets/works/vlogs/uni-life-graduating.webp",
    "slug": "uni-life-graduating",
-   "alt": "Uni life finally graduating vlog thumbnail",
-   "w": 356,
-   "h": 200,
-   "ratio": 1.78,
-   "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JbACdMoACpx++3IyqQUAAAPvkRf1XA/SfmT/kx5JWJGl2uaYko5qjWU9BT/QEw0pQMjQS6x+7wdasSrmqc90015MCuMkOFp2trzVOyGRKXF9BfyrAAA=="
-  },
-  {
-   "src": "/assets/works/vlogs/uni-life-hell-week.webp",
-   "slug": "uni-life-hell-week",
-   "alt": "Uni life first week hell week vlog thumbnail",
-   "w": 356,
-   "h": 200,
-   "ratio": 1.78,
-   "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZQAARNt3VtJ4wxZZcAAA/qrm2P+3GH+WRjdeaXabNSa1p/jrSVvuCnBcjEzMsEVIToMxUkArI8jUgZAPu5J34SwgSjbrovI6WiKv2SFOHbbgEHkib2gA"
+   "alt": "uni vlog 5: and suddenly, it was graduation season — thumbnail",
+   "w": 1280,
+   "h": 720,
+   "ratio": 1.7778,
+   "lqip": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JbACdMoR3ACIXEG6n3VVqaZoAAOJili7bgMN2JBMnKmNel8W5VHj8mDyLOo0+uZf+SGt23EBUBP5+HseHMg53qvAswHjf3eAuLoCPI9QiIHWeULwvEPFmT/JsfNQaLJ6mXMtQHorskjcdSdV8XRUvDa340Rlbq2Ve43tbGa1flRosg7VgCNOvAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/vlogs/uni-life-graduating-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/vlogs/uni-life-graduating-960.webp"
+    }
+   ]
   },
   {
    "src": "/assets/works/vlogs/uni-life-welcoming.webp",
    "slug": "uni-life-welcoming",
-   "alt": "Uni life welcoming week vlog thumbnail",
-   "w": 359,
-   "h": 202,
-   "ratio": 1.7772,
-   "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZgCdFQAARlURCILbZnQAAPwPnOnHZ0Z4Knc+TCKq99CwLmgB90ESg/LtpJ6234URBGcrIZx90/LcL+QcZRgcG2JGk1Ey/6YX63phLGSXARbGMHFP07J/9/TNdAwA"
+   "alt": "uni vlog ep 2: welcoming week — thumbnail",
+   "w": 1280,
+   "h": 720,
+   "ratio": 1.7778,
+   "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAACQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JbACdMoHgAGYA2WhH8u6BRjgwEYAA9rutMvVzO1WlGP3ye6tcQ2SUZNhypfQ1kpuM8mTIh//bR3zRoQdDO+B+/kZgc48fVFajGTDfCLzmsj8PK6uN39QvVr0IqIu5hcIix5j8mO+WfmauxUtE6PBxz876AjYyo+GLy1+ykvdha1aaYRcAAA==",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/vlogs/uni-life-welcoming-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/vlogs/uni-life-welcoming-960.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/vlogs/uni-life-hell-week.webp",
+   "slug": "uni-life-hell-week",
+   "alt": "uni vlog ep 3: feel q na pagiging college q — thumbnail",
+   "w": 1280,
+   "h": 720,
+   "ratio": 1.7778,
+   "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZQAD5CFG7nE2Yzew2OOgAP7BDg1qLLxrRt/9SPQnJfwf+GM2fdGQornnWssz6cJu+oNmT1B1izvVXKrlRFi6WPoP7hrbKy9IN+AFZHkrZR5ip4vrML1cVpA9BjPnOhQttMbDRAaEpUYUA9B3AsgaY0oGWFwAAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/vlogs/uni-life-hell-week-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/vlogs/uni-life-hell-week-960.webp"
+    }
+   ]
+  }
+ ],
+ "works/films": [
+  {
+   "src": "/assets/works/films/kapilas-bayan-promo.webp",
+   "slug": "kapilas-bayan-promo",
+   "alt": "Group 2, Kapilas-Bayan promotional video — thumbnail",
+   "w": 1280,
+   "h": 720,
+   "ratio": 1.7778,
+   "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JaQAAUqMV1TYgwCAAAP6vrlXQhtEoVva9ISlk8pJCHCfutFqAAAAA",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/films/kapilas-bayan-promo-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/films/kapilas-bayan-promo-960.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/films/ekokritisismo.webp",
+   "slug": "ekokritisismo",
+   "alt": "FIL 102 — Ekokritisismo at pagpapahalaga sa kalisan, documentary — thumbnail",
+   "w": 1280,
+   "h": 720,
+   "ratio": 1.7778,
+   "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZwDG9BUMjCWn/K2gAP4cf9Z8UcE5O+8fUcg4an0qbsJHrRtMsVx1ENuvRNZvhzsI8o0RWi7vdLUXufYiPXM2bHtbLekcAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/films/ekokritisismo-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/films/ekokritisismo-960.webp"
+    }
+   ]
+  },
+  {
+   "src": "/assets/works/films/ang-lihim-ni-lea.webp",
+   "slug": "ang-lihim-ni-lea",
+   "alt": "'Ang lihim ni Lea' ni Augie Rivera, short film — thumbnail",
+   "w": 1280,
+   "h": 720,
+   "ratio": 1.7778,
+   "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZACw7Bxc8jJzVZp3UAAA+F8B+2gohgj8PmO8/R6sDYs9xMnFz8i95qcFbN/ToQm57vsMIkmqsnn+dJntYBakFpKwcVkAAAA=",
+   "srcset": [
+    {
+     "w": 480,
+     "src": "/assets/works/films/ang-lihim-ni-lea-480.webp"
+    },
+    {
+     "w": 960,
+     "src": "/assets/works/films/ang-lihim-ni-lea-960.webp"
+    }
+   ]
   }
  ]
 }

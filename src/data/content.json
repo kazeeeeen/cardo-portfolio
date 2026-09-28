@@ -273,14 +273,19 @@
       },
       {
         "id": "vlogs",
-        "label": "YOUTUBE VLOGS",
-        "credit": "SID LUNA VLOGS",
+        "label": "YOUTUBE VLOG EDITS",
+        "credit": "EDITED FOR SID LUNA",
         "kind": "phones",
         "assetGroup": "works/vlogs",
         "slugs": [
           "beata-beach",
-          "christmas-party",
-          "ano-vlog"
+          "ano-vlog",
+          "christmas-party"
+        ],
+        "links": [
+          "https://www.youtube.com/watch?v=1rLvkZmU374",
+          "https://www.youtube.com/watch?v=HLvHJeOmw-8",
+          "https://www.youtube.com/watch?v=zYc8risrQi0"
         ]
       },
       {
@@ -293,13 +298,33 @@
           "uni-life-graduating",
           "uni-life-welcoming",
           "uni-life-hell-week"
+        ],
+        "links": [
+          "https://www.youtube.com/watch?v=_AgwyHwPOE8",
+          "https://www.youtube.com/watch?v=tGCrPkUXYWU",
+          "https://www.youtube.com/watch?v=lyysrYvoUtU"
         ]
       },
       {
         "id": "documentary-films",
         "label": "DOCUMENTARY/FILMS",
         "kind": "films",
-        "screens": 3
+        "assetGroup": "works/films",
+        "slugs": [
+          "ang-lihim-ni-lea",
+          "ekokritisismo",
+          "kapilas-bayan-promo"
+        ],
+        "links": [
+          "https://www.facebook.com/reel/1373617420555421",
+          "https://www.facebook.com/reel/896810861389520",
+          "https://www.facebook.com/reel/260412703363104"
+        ],
+        "titles": [
+          "ANG LIHIM NI LEA — SHORT FILM",
+          "EKOKRITISISMO — DOCUMENTARY",
+          "KAPILAS-BAYAN — PROMOTIONAL VIDEO"
+        ]
       }
     ]
   },
