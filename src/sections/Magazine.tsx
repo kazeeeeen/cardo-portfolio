@@ -23,7 +23,6 @@ export function Magazine({ section }: { section: WorksSection }) {
             {cover}
           </a>
         ) : (
-          // TODO: add the Heyzine flipbook URL to content.json → works.sections[0].link
           cover
         )}
       </div>
