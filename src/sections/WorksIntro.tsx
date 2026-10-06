@@ -26,7 +26,7 @@ export function WorksIntro() {
         <Heading size={96} tone="paper">
           my
         </Heading>
-        <Heading size={231} tone="paper" style={{ marginTop: '-0.432em', marginLeft: '-0.039em' }} split>
+        <Heading size={231} tone="paper" style={{ marginTop: '-0.432em', marginLeft: 'calc(-0.2em - 0.039em)' }} split>
           <em>works</em>
         </Heading>
       </div>
