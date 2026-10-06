@@ -43,13 +43,15 @@ export function Vlogs({ section, variant }: { section: WorksSection; variant: 'a
       ))}
 
       <div data-reveal className={a ? 'text-right stack:order-first' : 'stack:order-first'} style={a ? box(700, 490, 586) : box(80, 518, 375)}>
-        <div className={a ? 'text-right leading-none' : 'text-right leading-none'}>
+        <div className={a ? 'text-right leading-none' : 'leading-none'}>
           <Credit>{section.credit ?? ''}</Credit>
         </div>
-        <Heading size={104} style={{ marginTop: '-0.08em' }}>
+        {/* B sizes to its widest line so the second line can sit flush right
+            under the first: YOUTUBE / ···VLOGS. */}
+        <Heading size={104} className={a ? undefined : 'w-fit'} style={{ marginTop: '-0.08em' }}>
           {first}
-          <br />
-          {second}
+          {a ? <br /> : null}
+          {a ? second : <span className="block text-right">{second}</span>}
         </Heading>
       </div>
       {a ? <RicaMark x={85} y={665} /> : <RicaMark x={90} y={76} />}
